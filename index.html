@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> My Library</h1>
+    <div class="container">
+        <form class="format">
+            <p>Name of Book:<input id="book" type="text" placeholder="write books name"> </p>
+
+            <p>Name of Author:<input id="author" type="text" placeholder="write authors name"> </p>
+
+            <p>Available copies:<input id="copy" type="number" placeholder="put number of books"> 
+            </p>
+            <button onclick="addBook()">Add Book</button>
+            <p id="message"></p>
+            <button onclick="totalBook()">Show Status</button>
+
+        </form>
+
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>

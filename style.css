@@ -1,0 +1,20 @@
+h1 {
+    color: rgba(3, 149, 149, 0.775);
+    text-align: center;
+}
+.container {
+    border: 2px solid gainsboro;
+    height: 80vh;
+    width: 100%;
+}
+.format{
+    width:100% ;
+    height: 100%;
+    background-color: rgb(110, 242, 110);
+    text-align: center;
+    padding:5rem ;
+}
+p {
+    margin: 5px;
+    padding: 5px;
+}
